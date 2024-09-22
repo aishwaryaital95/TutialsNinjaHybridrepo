@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TutorialsNinja Automation suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.tutorials.qa.listeners.MyListerners"/>
+  </listeners>
+  <test thread-count="5" name="torialsNinja Tests(failed)">
+    <classes>
+      <class name="com.tutorialsninja.qa.testcases.Register">
+        <methods>
+          <include name="verifyingAccoundWithExisitingEmailAccount"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.tutorialsninja.qa.testcases.Register -->
+    </classes>
+  </test> <!-- torialsNinja Tests(failed) -->
+</suite> <!-- Failed suite [TutorialsNinja Automation suite] -->
